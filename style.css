@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", sans-serif;
+    user-select: none;
+  
+}
+
+h1 {
+  
+  color: red;
+  font-weight: 500; 
+}
+
+canvas {
+  z-index: -99;
+}
+
+.container {
+  padding: 10px;
+}
+
+p {
+  color: black;
+}
+
+a {
+  
+  font-size: 20px;
+  color: blue;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+
+br{
+  border: 1px solid black; 
+}
+.about {
+  position: absolute;
+/*   top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); */
+  font-size: 6em;
+}
+
+.gallery{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+}
+
+
+img{
+  width: 100%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
